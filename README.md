@@ -18,7 +18,7 @@ Este proyecto proporciona una API completa para manejar listas de tareas, desarr
 
   * Registro e inicio de sesión de usuarios mediante tokens JWT seguros.
 
-  * **Registro**:
+  ***Registro**:
     Los usuarios pueden registrarse mediante una solicitud `POST` a `/api/v1/auth/register`, enviando un JSON como:
 
     ```json
@@ -28,7 +28,7 @@ Este proyecto proporciona una API completa para manejar listas de tareas, desarr
     }
     ```
 
-  * **Inicio de sesión (Login)**:
+  ***Inicio de sesión (Login)**:
     Se realiza con una solicitud `POST` a `/api/v1/auth/login`, usando `form-data` con los campos:
 
     ```
