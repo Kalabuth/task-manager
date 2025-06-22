@@ -14,7 +14,7 @@ Este proyecto proporciona una API completa para manejar listas de tareas, desarr
 
 ###  Funcionalidades del Proyecto
 
-***Autenticación JWT**
+**Autenticación JWT**
 
   * Registro e inicio de sesión de usuarios mediante tokens JWT seguros.
 
@@ -28,7 +28,7 @@ Este proyecto proporciona una API completa para manejar listas de tareas, desarr
     }
     ```
 
-  ***Inicio de sesión (Login)**:
+  **Inicio de sesión (Login)**:
     Se realiza con una solicitud `POST` a `/api/v1/auth/login`, usando `form-data` con los campos:
 
     ```
@@ -41,11 +41,11 @@ Este proyecto proporciona una API completa para manejar listas de tareas, desarr
     ```
     Authorization: Bearer <access_token>
 
-***Gestión de Listas de Tareas**
+**Gestión de Listas de Tareas**
 
   * CRUD completo de listas de tareas por usuario autenticado.
 
-***Gestión de Tareas**
+**Gestión de Tareas**
 
   * CRUD de tareas vinculadas a listas.
   * Asignación de:
@@ -59,15 +59,15 @@ Este proyecto proporciona una API completa para manejar listas de tareas, desarr
       * `3`: Baja
     * **Usuario responsable** (opcional)
 
-***Filtrado de Tareas**
+**Filtrado de Tareas**
 
   * Filtrado por `completed` (`true` / `false`) y por `priority` (`1`, `2`, `3`) en los listados por lista.
 
-***Indicador de Completitud**
+**Indicador de Completitud**
 
   * Se calcula y devuelve automáticamente el **porcentaje de tareas completadas** por lista.
 
-***Cobertura de Tests**
+**Cobertura de Tests**
 
   * Cobertura de pruebas superior al **90%** usando `pytest` y `coverage`.
 
